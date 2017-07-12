@@ -57,14 +57,18 @@ git checkout -- .
 git clean -xfd
 
 # [Create a new branch with changes](http://stackoverflow.com/questions/3899627/create-git-branch-with-current-changes)
+```shell
 git branch mynewbranch
 git git reset --soft HEAD~3 # only if you want to undo last 3 commits
 git checkout mynewbranch
+```
 
 # [Combine commits from a branch and merge it into another branch](http://stackoverflow.com/questions/5308816/how-to-use-git-merge-squash)
+```shell
 git checkout master
 git merge --squash bugfix
 git commit
+```
 
 # Undo last commit without undoing the changes. 
 Do this so you can see the differences between your files and a previous commit. Repeat the command until you reach the point
