@@ -91,7 +91,7 @@ git clean -xfd
 # [Create a new branch with changes](http://stackoverflow.com/questions/3899627/create-git-branch-with-current-changes)
 ```shell
 git branch mynewbranch
-git git reset --soft HEAD~3 # only if you want to undo last 3 commits
+git reset --soft HEAD~3 # only if you want to undo last 3 commits
 git checkout mynewbranch
 ```
 
