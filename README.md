@@ -140,4 +140,5 @@ git push origin -u new-name
 # Useful articles
 
 [Writing a good commit message](https://chris.beams.io/posts/git-commit/)
+
 [Set of useful commands like this but much better](https://www.atlassian.com/git/tutorials/rewriting-history)
